@@ -1,0 +1,79 @@
+name: User Story
+description: Feature story for product backlog
+title: "[Story]: "
+labels: ["backlog", "story", "todo"]
+body:
+  - type: input
+    id: persona
+    attributes:
+      label: As a
+      description: Who is the user?
+      placeholder: traveler
+    validations:
+      required: true
+
+  - type: input
+    id: goal
+    attributes:
+      label: I want
+      description: What does the user need?
+      placeholder: to save favorite tours
+    validations:
+      required: true
+
+  - type: input
+    id: benefit
+    attributes:
+      label: So that
+      description: Why is this valuable?
+      placeholder: I can quickly compare options later
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0 - Critical
+        - P1 - High
+        - P2 - Medium
+        - P3 - Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: size
+    attributes:
+      label: Story points
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        - 13
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List measurable conditions.
+      placeholder: |
+        - Given ...
+        - When ...
+        - Then ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of done
+      options:
+        - label: Code is implemented
+        - label: Tests are added or updated
+        - label: Reviewed and approved
+        - label: Merged to main

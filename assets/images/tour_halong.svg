@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="halong" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#26A69A"/>
+      <stop offset="100%" style="stop-color:#00695C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#halong)"/>
+  <polygon points="80,450 120,200 160,450" fill="#455A64"/>
+  <polygon points="220,450 280,150 340,450" fill="#37474F"/>
+  <polygon points="400,450 450,120 500,450" fill="#546E7A"/>
+  <polygon points="560,450 620,180 680,450" fill="#455A64"/>
+  <polygon points="700,450 730,280 760,450" fill="#37474F"/>
+  <path d="M200 400 Q250 380 300 400" stroke="#FFF" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M450 380 Q500 360 550 380" stroke="#FFF" stroke-width="3" fill="none" opacity="0.8"/>
+  <text x="400" y="240" text-anchor="middle" fill="#FFF" font-size="26" font-family="sans-serif">VËnh H¡ Long</text>
+</svg>

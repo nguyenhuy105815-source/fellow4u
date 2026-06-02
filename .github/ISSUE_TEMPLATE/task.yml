@@ -1,0 +1,60 @@
+name: Task
+description: Engineering task for sprint backlog
+title: "[Task]: "
+labels: ["backlog", "task", "todo"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Task summary
+      placeholder: Implement API integration for tour search screen.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - frontend
+        - backend
+        - mobile
+        - devops
+        - qa
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0 - Critical
+        - P1 - High
+        - P2 - Medium
+        - P3 - Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: estimate
+    attributes:
+      label: Estimate
+      options:
+        - S - 0.5 day
+        - M - 1 day
+        - L - 2 days
+        - XL - 3+ days
+    validations:
+      required: true
+
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Implementation checklist
+      placeholder: |
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
+    validations:
+      required: true

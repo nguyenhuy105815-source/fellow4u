@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Backlog guide
+    url: https://github.com/Phong220205/ungdungFellow4u/blob/main/BACKLOG.md
+    about: Read the backlog workflow and board setup guide.
